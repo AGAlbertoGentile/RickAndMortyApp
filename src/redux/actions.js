@@ -1,5 +1,5 @@
 import { ADD_FAV, REMOVE_FAV } from "./typeActions";
-import { ORDER, FILTER } from "./typeActions";
+import { ORDER, FILTER, RESET } from "./typeActions";
 
 export const addFav = (character) => {
     return{
@@ -16,22 +16,22 @@ export const removeFav = (id) =>{
 };
 
 
-export function orderFavorites (order){
+export const orderFavorites = (order) =>{
     return {    
         type: ORDER,
         payload: order
     };
 }; 
 
-export function filterFavorites(gender){
+export const filterFavorites = (gender) =>{
     return{
         type: FILTER,
         payload: gender
     };
 };
 
-export function resetFavorites(){
+export const resetFavorites = () =>{
     return{
-        type:RESET
+        type: RESET
     }
 }

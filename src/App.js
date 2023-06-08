@@ -13,6 +13,7 @@ import Form from './components/Form/Form.jsx';
 import Error from './components/Error/Error';
 import { useDispatch } from 'react-redux';
 import { removeFav } from './redux/actions';
+import Favorites from './components/Favorites/Favorites';
 
 
 
