@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(197, 197, 197);
+  background-image: url('./assets/rickAndMorty1.jpg');
+  background-attachment: scroll;
+  background-position: center;
 }
 
 code {
