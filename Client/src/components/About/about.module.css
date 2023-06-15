@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    color:aliceblue;
+    padding: 50px;
+    margin-top: 150px;
+    text-shadow: 2px 2px 4px rgba(89, 85, 85, 0.5);
+
+    /* background-image: url('./assets/rick-house.jpg');
+    background-size: cover;
+    background-position: center; */
+}

@@ -1,0 +1,69 @@
+.Navcontainer{
+    background-image: url('../../assets/rickAndMorty1.jpg');
+    background-attachment: fixed;
+    display: flex;
+    /* box-shadow: 2px 2px 8px royalblue; */
+    /* background:rgba(9, 10, 10, 0.927); */
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px;
+}
+.img{
+    height: 70px;
+    margin-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 70px;
+}
+
+
+.LogOutButton{
+    position: absolute;
+    height: 30px;
+    margin-top: 30px;
+    /* background-color: blueviolet; */
+    background-color: royalblue;
+    border:none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.NavButton{
+    padding: 5px;
+    font-weight: bold;
+    max-height: 30px;
+    background-color:rgba(82, 82, 82, 0.082);
+    border-radius: 30px;
+    color:rgba(255, 255, 255, 0.714);
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.NavButton:hover{
+    background-color:royalblue;
+    color:white;
+}
+.Input{
+    background-color: aquamarine;
+}
+
+.addRandomButton{
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    max-height: 30px;
+    background-color:rgba(82, 82, 82, 0.082);
+    border-radius: 30px;
+    color:rgba(255, 255, 255, 0.714);
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 110px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.addRandomButton:hover{
+    background-color:royalblue;
+    color:white;
+}

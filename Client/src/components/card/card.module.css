@@ -1,0 +1,150 @@
+.CardContainer{
+    height:320px;
+    max-width: 200px;
+    box-shadow: 3px 3px 8px rgba(28, 25, 25, 0.818);
+    background-color: royalblue;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.246);
+}
+.CardContainer-animado {
+    transition: box-shadow 0.1s ease-in-out;
+    /* box-shadow: none; */
+  }
+  
+  .panel-animado:hover {
+    box-shadow: 0 0 10px royalblue;
+  }
+/* .container:hover {
+    transform: scale(0.8);
+} */
+
+.img{
+    max-height: 200px;
+    max-width: 200px;
+    box-shadow: 0px 2px 8px rgba(19, 14, 14, 0.876);
+
+}
+.img:hover {
+    border: royalblue;
+    color: beige;
+}
+
+/* .titleContainer{
+  display: flex;
+  background-color: antiquewhite;
+  max-height: 200px;
+  max-width: 200px;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.CardTitle {
+    box-shadow: 0px 3px 2px rgba(19, 14, 14, 0.876);
+    background-color: rgb(116, 118, 122);
+    border-radius:4px;
+    border-color: black;
+    color:gainsboro;
+    margin: 15px;
+    padding: 5px;
+    height: 40px;
+    
+}
+.CardTitle-animado {
+  transition: box-shadow 0.1s ease-in-out;
+  /* box-shadow: none; */
+}
+a{
+  text-decoration: none;
+}
+h3.CardTitle{
+  text-align:center;
+  font-size:14px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.topCardContainer{
+  height: 30px;
+  background-color: rgb(74, 194, 170);
+  padding-top: 6px;
+  padding-bottom: 2px;
+  box-shadow: 0px 2px 8px rgba(19, 14, 14, 0.876);
+  text-align: center;
+
+}
+.information {
+    color:white;
+}
+.color1 {
+    color:royalblue;
+  }
+.buttonDelete{
+  margin-left:100px;
+  background-color:royalblue;
+  box-shadow: 0px 3px 2px rgba(19, 14, 14, 0.876);
+  border-radius: 10px;
+  color:gainsboro;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.buttonDelete:hover{
+    background-color:rgb(233, 49, 45);
+    color:white;
+}
+.buttonFav{
+    max-height: 30px;
+    max-width: 30;
+    background-color: transparent;
+    color:gainsboro;
+    border: none;
+}
+/* .buttonDelete{
+    position: relative;
+    bottom: 255px;
+    right: 80px;
+    max-height: 30px;
+    max-width: 30;
+    background-color:royalblue;
+    border-radius: 30px;
+    color:gainsboro;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.buttonDelete:hover{
+    background-color:rgb(233, 49, 45);
+    color:white;
+}
+.buttonFav{
+    position: relative;
+    bottom: 255px;
+    left: 110px;
+    max-height: 30px;
+    max-width: 30;
+    background-color: transparent;
+    border: none;
+} */
+
+/* .animacionLetras {
+    font-size: 4em;
+    animation-name: animacion;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+    color: rgba(255, 255, 255, 0.100);
+  }
+  50% {
+    transform: scale(1.1);
+    color: white;
+  }
+  100% {
+    transform: scale(1);
+    color: rgba(255, 255, 255, 0.100);
+  }
+} */
